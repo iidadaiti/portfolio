@@ -1,0 +1,40 @@
+-
+  const profile = {
+    name: '飯田 大地',
+    data: [
+      {title: 'Since', value: ['1996.03.07']},
+      {title: 'From', value: ['千葉県市川市']},
+      {title: 'Comment', value: [
+        'フロントエンド開発を中心に活動しています。',
+        '興味分野はフレームワークやプログラミング言語そのものです。'
+      ]},
+      {title: 'Jobs', value: [
+        'Pythonの画像検出を用いたAndroidTVのバグ検出',
+        'Laravelを用いたWebアプリケーションの開発',
+        'Dockerを用いた環境構築',
+        '.NETで作成されたアプリのリファクタリング'
+      ]},
+      {title: 'Hobby', value: [
+        'Godotでのゲーム開発',
+        'npmパッケージ作成',
+        '自作言語の作成'
+      ]},
+    ]
+  }
+
+section.section#profile
+  div.section-container
+    h2.section-title PROFILE
+
+    div.profile
+      div.profile-container
+        dl.profile-list
+          dt
+            h3.profile-name #{profile.name}
+          dd.profile-list-item
+            each item in profile.data
+              dl.profile-sub-list
+                dt.profile-sub-list-item-title #{item.title}
+                dd.profile-sub-list-item-value
+                  each value in item.value
+                    p.profile-sub-list-item-value-line #{value}

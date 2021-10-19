@@ -1,0 +1,125 @@
+-
+  const skillList = [
+    {name: 'HTML5', svg: 'html'},
+    {name: 'pug', svg: 'pug'},
+    {name: 'CSS3', svg: 'css'},
+    {name: 'Sass', svg: 'sass'},
+    {name: 'javascript', svg: 'javascript'},
+    {name: 'Typescript', svg: 'typescript'},
+    {name: 'php', svg: 'php'},
+    {name: 'C / C++', svg: 'c'},
+    {name: 'C#', svg: 'c#'},
+    {name: 'java', svg: 'java'},
+    {name: 'go', svg: 'go'},
+    {name: 'Rust', svg: 'rust'},
+    {name: 'Python', svg: 'python'},
+    {name: 'Ruby', svg: 'ruby'},
+    {name: 'swift', svg: 'swift'},
+    {name: 'Dart', svg: 'dart'},
+    {name: 'Julia', svg: 'julia'},
+    {name: 'nim', svg: 'nim'},
+    {name: 'Open GL', svg: 'opengl'},
+    {name: 'Bootstrap', svg: 'bootstrap'},
+    {name: 'Tailwind CSS', svg: 'tailwindcss'},
+    {name: 'React', svg: 'react'},
+    {name: 'React Native', svg: 'react-native'},
+    {name: 'Next.js', svg: 'next-js'},
+    {name: 'Svelte', svg: 'svelte'},
+    {name: 'JQuery', svg: 'jquery'},
+    {name: 'Laravel', svg: 'laravel'},
+    {name: 'Flutter', svg: 'flutter'},
+    {name: '.NET', svg: 'dot-net'},
+    {name: 'Firebase', svg: 'firebase'},
+    {name: 'MySql', svg: 'mysql'},
+    {name: 'PostgreSql', svg: 'postgresql'},
+    {name: 'SQLite', svg: 'sqlite'},
+    {name: 'Git', svg: 'git'},
+    {name: 'Docker', svg: 'docker'},
+    {name: 'Godot', svg: 'godot'},
+    {name: 'Unity', svg: 'unity'}
+  ]
+
+section.section#skill
+  div.section-container
+    h2.section-title Skill
+
+    div.skill-list
+      each skill in skillList
+        div.skill-item
+          div.skill-item-image
+            case skill.svg
+              when 'html'
+                include ../icons/skills/html.svg
+              when 'pug'
+                include ../icons/skills/pug.svg
+              when 'css'
+                include ../icons/skills/css.svg
+              when 'sass'
+                include ../icons/skills/sass.svg
+              when 'javascript'
+                include ../icons/skills/javascript.svg
+              when 'typescript'
+                include ../icons/skills/typescript.svg
+              when 'php'
+                include ../icons/skills/php.svg
+              when 'c'
+                include ../icons/skills/c.svg
+              when 'c#'
+                include ../icons/skills/c-sharp.svg
+              when 'java'
+                include ../icons/skills/java.svg
+              when 'go'
+                include ../icons/skills/go.svg
+              when 'rust'
+                include ../icons/skills/rust.svg
+              when 'python'
+                include ../icons/skills/python.svg
+              when 'ruby'
+                include ../icons/skills/ruby.svg
+              when 'swift'
+                include ../icons/skills/swift.svg
+              when 'dart'
+                include ../icons/skills/dart.svg
+              when 'julia'
+                include ../icons/skills/julia.svg
+              when 'nim'
+                include ../icons/skills/nim.svg
+              when 'opengl'
+                include ../icons/skills/opengl.svg
+              when 'bootstrap'
+                include ../icons/skills/bootstrap.svg
+              when 'tailwindcss'
+                include ../icons/skills/tailwindcss.svg
+              when 'react'
+                include ../icons/skills/react.svg
+              when 'react-native'
+                include ../icons/skills/react-native.svg
+              when 'next-js'
+                include ../icons/skills/next-js.svg
+              when 'svelte'
+                include ../icons/skills/svelte.svg
+              when 'jquery'
+                include ../icons/skills/jquery.svg
+              when 'laravel'
+                include ../icons/skills/laravel.svg
+              when 'flutter'
+                include ../icons/skills/flutter.svg
+              when 'dot-net'
+                include ../icons/skills/dot-net.svg
+              when 'firebase'
+                include ../icons/skills/firebase.svg
+              when 'mysql'
+                include ../icons/skills/mysql.svg
+              when 'postgresql'
+                include ../icons/skills/postgresql.svg
+              when 'sqlite'
+                include ../icons/skills/sqlite.svg
+              when 'git'
+                include ../icons/skills/git.svg
+              when 'docker'
+                include ../icons/skills/docker.svg
+              when 'godot'
+                include ../icons/skills/godot.svg
+              when 'unity'
+                include ../icons/skills/unity.svg
+          div.skill-item-name #{skill.name}

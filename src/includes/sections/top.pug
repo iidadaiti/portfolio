@@ -1,0 +1,22 @@
+-
+  const intro = [
+    'プログラムは問題を処理する道具である。',
+    'しかし、その設計思想やロジックを見ると、道具以上の魅力を感じてならない。',
+    'その魅力は結果として、私を問題に集中させ、時として道に転がった小石に気が付かせてくれる。',
+    'プログラマとは、コードに責任とワクワクを記述する仕事である。'
+  ]
+
+section.section#top
+  div.section-container
+    div.top
+      div.top-container
+        h1.top-title I like to make.
+        div.top-intro
+          each line in intro
+            p.top-intro-line #{line}
+
+      div.top-easter-egg
+        div.top-easter-egg-text こういうの、ワクワクするでしょ？
+        .top-easter-egg-cover
+          - for (var i = 0; i < 18 * 4; i++)
+            .top-easter-egg-cover-trigger

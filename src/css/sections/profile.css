@@ -1,0 +1,38 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.profile-list {
+  margin: 0;
+}
+
+.profile-list-item {
+  margin: 0 0 0 1rem;
+}
+
+.profile-sub-list {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  margin: 1rem 0;
+}
+
+.profile-sub-list-item-title::after {
+  content: ':';
+  margin: 0 0.25rem;
+}
+
+.profile-sub-list-item-value {
+  margin: 0;
+}
+
+.profile-sub-list-item-value-line {
+  margin: 0;
+}

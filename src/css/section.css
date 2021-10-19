@@ -1,0 +1,18 @@
+@import url('./sections/top.css');
+@import url('./sections/skill.css');
+@import url('./sections/profile.css');
+@import url('./sections/contact.css');
+
+.section-title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.section {
+  padding: 3rem 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  margin: 0 1rem;
+}

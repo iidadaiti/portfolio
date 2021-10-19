@@ -1,0 +1,85 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.contact-description-line {
+  margin: 1rem 0;
+}
+
+.contact-email {
+  display: inline-flex;
+  padding: 0.5rem;
+  margin: 0 0 1rem 0;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.contact-email:focus {
+  outline: none;
+  background-color: var(--color-gray-300);
+}
+
+.contact-email {
+  color: var(--color-blue-500);
+}
+
+.contact-email:hover .contact-email-address {
+  text-decoration: underline;
+}
+
+.contact-email-icon {
+  display: inline-flex;
+  width: 1rem;
+  justify-content: center;
+  fill: currentColor;
+  padding: 0 0.5rem 0 0;
+}
+
+.contact-link {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.contact-link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color var(--duration-500) var(--ease-out);
+}
+
+.contact-link-item:focus {
+  outline: none;
+  background-color: var(--color-gray-300);
+}
+
+.contact-link-item:hover {
+  background-color: var(--color-gray-300);
+}
+
+.contact-link-item-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}
+
+.contact-link-item-name {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+-
+  const list = [
+    {text: 'TOP', href: '#top'},
+    {text: 'SKILL', href: '#skill'},
+    {text: 'PROFILE', href: '#profile'},
+    {text: 'CONTACT', href: '#contact'},
+  ]
+
+nav.nav
+  div.nav-small
+    include icons/menu.svg
+  div.nav-container
+    ul.nav-menu
+      each item in list
+        li.nav-menu-item
+          a.nav-menu-item-link(href=`${item.href}`) #{item.text}

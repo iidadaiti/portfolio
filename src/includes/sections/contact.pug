@@ -1,0 +1,26 @@
+-
+  const email = 'iida.daiti.yattaki@gmail.com'
+
+section.section#contact
+  div.section-container
+    h2.section-title CONTACT
+
+    div.contact
+      div.contact-container
+        div.contact-description
+          p.contact-description-line ご意見やご感想などお気軽にお問い合わせください。
+
+          a.contact-email(href=`mailto:${email}`)
+            div.contact-email-icon
+              include ../icons/email.svg
+            span.contact-email-address #{email}
+
+      div.contact-link
+        a.contact-link-item(href='https://github.com/iidadaiti')
+          div.contact-link-item-icon
+            include ../icons/github.svg
+          div.contact-link-item-name Github
+        a.contact-link-item(href='https://twitter.com/yattaki')
+          div.contact-link-item-icon
+            include ../icons/twitter.svg
+          div.contact-link-item-name Twitter

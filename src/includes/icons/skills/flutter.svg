@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 79" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="-2115.0029" y1="1930.7407" x2="-2115.0029" y2="1929.7407" gradientTransform="matrix(12.178039,-12.146545,-1.700041,-1.695524,29075.497025,-22352.558605)">
+<stop offset="0.2" style="stop-color:rgb(0%,0%,0%);stop-opacity:0.14902;"/>
+<stop offset="0.85" style="stop-color:rgb(38.039216%,38.039216%,38.039216%);stop-opacity:0.0117647;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="-2115.2688" y1="1946.3563" x2="-2114.2688" y2="1946.3563" gradientTransform="matrix(18.096898,0,0,-12.163775,38310.278242,23738.844248)">
+<stop offset="0.2" style="stop-color:rgb(0%,0%,0%);stop-opacity:0.54902;"/>
+<stop offset="0.85" style="stop-color:rgb(38.039216%,38.039216%,38.039216%);stop-opacity:0.0117647;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(25.882353%,64.705882%,96.078431%);fill-opacity:0.8;" d="M 12.199219 51.660156 L 0.00390625 39.496094 L 39.605469 0 L 63.996094 0 M 63.996094 36.449219 L 39.605469 36.449219 L 30.46875 45.558594 L 42.667969 57.726562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(5.098039%,27.843137%,63.137255%);fill-opacity:1;" d="M 30.46875 69.886719 L 39.605469 79 L 63.996094 79 L 42.667969 57.726562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(25.882353%,64.705882%,96.078431%);fill-opacity:1;" d="M 18.300781 57.730469 L 30.480469 45.582031 L 42.65625 57.730469 L 30.480469 69.878906 Z M 18.300781 57.730469 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 30.480469 69.878906 L 42.65625 57.730469 L 44.355469 59.425781 L 32.179688 71.574219 Z M 30.480469 69.878906 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 30.46875 69.886719 L 48.566406 63.652344 L 42.667969 57.722656 "/>
+</g>
+</svg>

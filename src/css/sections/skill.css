@@ -1,0 +1,26 @@
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 8rem);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-gray-300);
+}
+
+.skill-item-image {
+  width: 4rem;
+  height: 4rem;
+}
+
+.skill-item-name {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
