@@ -1,3 +1,12 @@
+-
+  const name = '飯田 大地'
+  const title = `${name} | PORTFOLIO`
+  const description = `${name}のプログラム愛が伝わるポートフォリオ`
+  const origin = 'https://iidadaiti.github.io/portfolio/public'
+  const url = `${origin}/index.html`
+  const image = `${origin}/android-chrome-512x512.png`
+  const color = '#da7b11'
+
 doctype html
 
 html(lang="ja")
@@ -5,8 +14,29 @@ html(lang="ja")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content=`${description}`)
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@yattaki")
+    meta(property="og:url" content=`${url}`)
+    meta(property="og:title" content=`${title}`)
+    meta(property="og:type" content="website")
+    meta(property="og:description" content=`${description}`)
+    meta(property="og:image" content=`${image}`)
+    meta(property="og:site_name" content=`${name}`)
+    meta(property="og:locale" content="ja_JP")
+    meta(name="msapplication-TileImage" content=`${image}`)
+    meta(name="msapplication-TileColor" content=`${color}`)
+    meta(name="theme-color" content=`${color}`)
+
+    link(rel="canonical", href=`${origin}`)
     link(rel="stylesheet", href="css/style.css")
-    title 飯田 大地 | ポートフォリオ
+    link(rel="icon" href="favicon.ico")
+    link(rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png")
+    link(rel="manifest" href="site.webmanifest")
+
+    title #{title}
 
   body
     div.page
