@@ -7,10 +7,12 @@
   ]
 
 nav.nav
-  div.nav-small
-    include icons/menu.svg
-  div.nav-container
-    ul.nav-menu
-      each item in list
-        li.nav-menu-item
-          a.nav-menu-item-link(href=`${item.href}`) #{item.text}
+  label
+    input.nav-open(type='checkbox' hidden)
+    div.nav-small
+      include icons/menu.svg
+    div.nav-container
+      ul.nav-menu
+        each item in list
+          li.nav-menu-item
+            a.nav-menu-item-link(href=`${item.href}`) #{item.text}

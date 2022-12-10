@@ -23,7 +23,7 @@
   transition: transform var(--duration-500) var(--ease-out);
 }
 
-.nav:hover .nav-container {
+.nav-open:checked + .nav-small + .nav-container {
   transform: translateX(0);
 }
 
