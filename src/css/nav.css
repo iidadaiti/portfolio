@@ -23,7 +23,7 @@
   transition: transform var(--duration-500) var(--ease-out);
 }
 
-.nav-open:checked + .nav-small + .nav-container {
+.nav-small:focus + .nav-container {
   transform: translateX(0);
 }
 
